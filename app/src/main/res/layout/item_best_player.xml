@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/id_item_image_player"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="233dp"
+            android:gravity="left"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:text="Lionel Messi"
+            android:textSize="25dp"
+            android:id="@+id/id_item_name_player"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="233dp"
+            android:gravity="left"
+            android:text="Barcelona"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:id="@+id/id_item_name_club"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="233dp"
+            android:gravity="left"
+            android:text="155 goals"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:id="@+id/id_item_best_record"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

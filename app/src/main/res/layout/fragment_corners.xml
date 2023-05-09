@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fdbc35"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.CornersFragment">
+
+    <ImageView
+        android:id="@+id/id_image_corners"
+        android:layout_width="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/emblemasudya"
+        android:layout_height="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="370dp"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="A corner kick is awarded when the ball completely crosses the goal line either on the ground or in the air, the last touching the player of the defending team"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="233dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="punch 20 corner kicks and record the number of successful attempts"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="277dp"
+                    android:textSize="20dp"
+                    android:id="@+id/id_edittext_corners"
+                    android:hint="past record: 14 "
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="93dp"
+                    android:text="enter"
+                    android:id="@+id/id_button_enter_corners"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="#4e4d4b"
+                    android:layout_height="75dp"/>
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/id_gif_corners"
+                android:layout_width="142dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="224dp"
+                android:id="@+id/id_button_to_rv_corners"
+                android:textColor="@color/white"
+                android:text="the best performers of corner kicks"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#4e4d4b" />
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_menu_penalty"
+        android:icon="@drawable/emblemapenalty"
+        android:title="penalty"/>
+
+    <item
+        android:id="@+id/id_menu_freekick"
+        android:icon="@drawable/emblemafreekick"
+        android:title="free kick"/>
+
+    <item
+        android:id="@+id/id_menu_corners"
+        android:icon="@drawable/emblemasudya"
+        android:title="corner"/>
+
+</menu>

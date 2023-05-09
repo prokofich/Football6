@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fdbc35"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.BestPlayerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="the best performers of corner kicks"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="80dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/id_rv_best_player"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_best_player"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
